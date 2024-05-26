@@ -30,7 +30,6 @@ h2 {
 }
 
 p {
-    color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 100;
 	line-height: 20px;
@@ -90,9 +89,15 @@ form {
 input {
 	background-color: #8F8F8F;
 	border: none;
-	padding: 12px 15px;
+	padding: 10px 10px;
 	margin: 8px 0;
 	width: 100%;
+    border-radius: 15px;
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    color: #FFFFFF;
 }
 
 .container {
